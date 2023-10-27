@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: wavy;
+}
+
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/09/12/40/pink-2614417_960_720.jpg");
+    background-repeat:initial;
+    
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display:block;
+    background-color: black;
+}
+
+.inner_header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1{
+    color:pink;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.logo_container h1 span{
+    font-weight: 800;
+    color: rgb(247, 165, 179);
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+    
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a:last-child{
+    padding-right: 0;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: pink;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+.introducere h1 {
+    text-align: center;
+}
+
+.introducere h2 {
+    text-align: center;
+}
+
+.introducere h1{
+    color:rgb(163, 117, 124);
+    
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.introducere h1 span{
+    font-weight: 800;
+    color: rgb(163, 95, 107);
+}
+
+.introducere h2{
+    color: rgb(163, 95, 107);
+    text-align: center;
+}
+
+.poza a {
+    display:inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s;
+}
+.poza a:hover {
+    box-shadow: 0 0 2px 1px rgba
+    (0, 140, 186, 0.5);
+}
+.poza a{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.primul_rand{
+    float: left;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.al_doilea_rand{
+    float: left;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;padding: 20px;
+}
+
+.al_treilea_rand{
+    float: left;
+    height: 100%;
+    margin-left: auto;padding: 20px;
+    margin-right: auto;
+}
+.poza {
+    position: relative;
+    width: 50%;
+  }
+  
+  .pret a{
+      text-align: center;
+
+  }
+
+.pret a{
+    height: 100%;
+    display:inline;
+    float:right;
+    padding: 0px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pret a{
+    color:rgb(163, 117, 124);
+    text-align: justify;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 100;
+}
+
+
+.pozee{
+    
+    display: table;
+    float:none;
+    padding: 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 100%;
+    border: 1px solid rgb(163, 95, 107);
+}
+
+table, th, td {
+    
+    border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background-color: rgb(163, 95, 107);
+    color:black
+}
+
+th, td {
+    padding: 4px;
+    text-align: center;
+}
+h2{
+    padding:50px 0px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid ;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #a24777;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #a24777;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    display: block;
+    color: rgb(157, 77, 126);
+  }
